@@ -1,4 +1,4 @@
-# catalog-app
+# PROJECT 3 - Catalog App
 A project for a catalog app, where users can sign up with email and password or Google or Facebook accounts. Logged users can add, edit and delete categories and items. Anonymous users can only view the items and categories. Logged users can only edit and delete their onw categories and items. There is also a Json API for all the catalog, for category items, for items and categories. Also features a sitemap.xml file with static, categories and items loc and images.
 
 ## Table of contents
@@ -14,11 +14,11 @@ A project for a catalog app, where users can sign up with email and password or 
 * Install bcrypt library: `sudo pip install bcrypt`
 * Install libraries in the `requirements.txt` file using pip.
 
-## Quick start 
-* Clone the repo: `git clone https://github.com/iraquitan/fullstack-nanodegree-vm.git`.
-* Change directory to the recently cloned repository and then to the `/vagrant` directory.
-* Start vagrant virtual machine with `vagrant up`.
-* Change to the `/catalog` directory.
+## Quick start
+* (Optional) Clone the repo: `git clone https://github.com/iraquitan/vagrant-trusty64-python-web.git` if you don't already have a vagrant VM configured with Flask.
+* (Optional) Change directory to the newly cloned repo.
+* Clone this repo `git clone https://github.com/iraquitan/udacity-fsnd-p3-catalog-app catalog-app` inside your vagrant VM shared folder.
+* Change to the `/catalog-app` directory.
 * Create a local config file in `instance/config.py`.
 * And fill with local config like database location and Oauth credentials as in the example below:
 ```python
@@ -36,6 +36,9 @@ OAUTH_CREDENTIALS = {
     }
 }
 ```
+* Start vagrant virtual machine with `vagrant up`.
+* Run the following code on terminal: `vagrant ssh` to connect to the virtual machine using ssh.
+* Run the following code on terminal: `cd /vagrant/catalog-app/` to change directory to this project.
 * Run the following code on terminal to populate DB: `python populate_db.py`.
 * Run the following code on terminal to run the server locally: `python runserver.py`.
 
