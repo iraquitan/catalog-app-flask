@@ -5,6 +5,7 @@ A project for a catalog app, where users can sign up with email and password or 
 * [Requirements](#requirements)
 * [Quick start](#quick-start)
 * [Creator](#creator)
+* [License](#license)
 
 ## Requirements
 * Python 2.7
@@ -47,3 +48,6 @@ OAUTH_CREDENTIALS = {
 
 * <https://twitter.com/iraquitan_filho>
 * <https://github.com/iraquitan>
+
+## License
+The contents of this repository are covered under the [MIT License](LICENSE).
